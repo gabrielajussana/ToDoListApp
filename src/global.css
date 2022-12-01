@@ -1,0 +1,16 @@
+:root{
+  --color-bg: #f7f2f6;
+  --text-color: #322e18;
+  --yellow-green: #cbe896;
+  --steel-teal: #62929e;
+  --orange: #d68c45;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+}
