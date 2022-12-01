@@ -1,0 +1,116 @@
+
+/*Customiação dos inputs*/
+.dados{
+    border: none;
+    border-bottom: solid #DCDCDC 0.1rem;
+    font-size: 0.80rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    margin-left: 1.0rem;
+    margin-left: 2.5rem;
+    display: block;
+    margin-top: 3rem;
+    padding:0rem 15rem 0.6rem 0.2rem;
+}
+
+.dados::placeholder{
+    color:#C0C0C0;
+}
+
+/*remove bordas ao clicar nos inputs*/
+.dados:focus , input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+
+/*Customiação do botão Login*/
+.botaoEnviar{
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    font-size: 1.0rem;
+    color: #ffffff;
+    cursor: pointer;
+    position:absolute;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    margin: 65% 0 0 40%;
+    align-items:center;
+    
+    border: none;
+    background: linear-gradient(145deg, #f15b8a, #b3375e);
+    box-shadow: 9px, 9px, 13px #b3375e,
+                -9px, -9px, 13px,#b3375e;
+                -webkit-box-shadow: -1px 14px 28px 0px #499cc3;
+                -moz-box-shadow:    -1px 14px 28px 0px #499cc3;
+                box-shadow:         -1px 14px 28px 0px #499cc3;
+}
+
+.botaoEnviar:hover{
+    color: #f9b35f;
+    background: linear-gradient(145deg, #499cc3, #19475c);
+    box-shadow: 9px, 9px, 13px #19475c,
+                -9px, -9px, 13px, #133a4d;
+                -webkit-box-shadow: -1px 14px 28px 0px #f15b8a;
+                -moz-box-shadow:    -1px 14px 28px 0px #f15b8a;
+                box-shadow:         -1px 14px 28px 0px #f15b8a;
+}
+
+.botaoEnviar:active{
+    color: #ffffff;
+}
+
+/*Check in box*/
+.manterConectado{
+    margin: 1rem 0 0 1.3rem;
+}
+
+/*design inferiores*/
+.designInferiorDireito{
+    margin-top: 109%;
+    height: 5rem;
+    margin-left: 36%;
+    width: 20rem;
+    position:absolute;
+    background-color: #499cc3;   	
+    clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+}
+
+.designInferiorEsquerdo{
+    margin-top: 109%;
+    height: 5rem;
+    width: 20rem;
+    position:absolute;
+    background-color: #499cc3;   	
+    clip-path: polygon(0 0%, 0% 100%, 100% 100%);
+}
+
+/*Links*/
+
+.configuracaoConta{
+    display:inline-block;
+    position: absolute;
+    margin-top: 83%;
+}
+
+.novaConta{
+    color: #f9b35f;
+    text-decoration: none;
+}
+
+.novaConta:hover{
+    color: #ffffff;
+}
+
+.esqueceuSenha{
+    color: #f9b35f;
+    text-decoration: none;
+    margin-right: 14rem;
+    margin-left: 0.65rem;
+}
+
+.esqueceuSenha:hover{
+    color: #ffffff;
+}
