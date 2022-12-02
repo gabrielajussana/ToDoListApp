@@ -1,4 +1,5 @@
-import {React, Link} from 'react';
+import {React} from 'react';
+import {Link} from 'react-router-dom'
 import {Container, WhiteContainer, ButtonNext} from './styles.js';
 import home from '../../assets/home.png';
 import '../../global.css';
@@ -12,9 +13,11 @@ function Home() {
       <img src={home} alt=""/>
       <h1>Gerencie as suas tarefas</h1>
     </WhiteContainer>
-    <ButtonNext>
-      <AiOutlineArrowRight />
-    </ButtonNext>
+    <Link to="/main">
+      <ButtonNext>
+        <AiOutlineArrowRight />
+      </ButtonNext>
+    </Link>
    </Container>
   );
 }
