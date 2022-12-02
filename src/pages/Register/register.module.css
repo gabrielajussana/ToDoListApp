@@ -100,3 +100,17 @@ h2{
     clip-path: polygon(100% 0, 0 0, 100% 66%);
 }
 
+/*Imagem*/
+img{
+    width: 18rem;
+    margin-left: 6rem;
+}
+
+/*Icon usurário*/
+.user{
+    font-size: 5rem; 
+}
+.user path{
+    fill:#499cc3;
+    
+}
