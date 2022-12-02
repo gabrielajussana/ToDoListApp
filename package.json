@@ -10,11 +10,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
-<<<<<<< HEAD
-    "react-router-dom": "^6.3.0",
-=======
     "react-router-dom": "^6.4.4",
->>>>>>> be82ed1e19d58368dba3c72116bf30cede75e15d
     "react-scripts": "5.0.1",
     "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4"

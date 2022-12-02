@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from "./styles";
 import styles from "./login.module.css";
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, Link, useNavigate } from "react-router-dom";
 import imgLogin from '../../assets/imgLogin.png';
 
 function Login(){
@@ -9,9 +9,10 @@ function Login(){
     function Enviar(){
         const email = document.getElementById('email').value;
         const senha = document.getElementById('senha').value;
-        
+        const navigate = useNavigate();
+
             if (email !== "" && senha !== ""){
-                alert('Logado com sucesso!'); 
+                alert('Logado com sucesso!');
             }else{
                 alert('Preencha os campos corretamente!');
             }
