@@ -22,7 +22,7 @@ function Home() {
     
 >>>>>>> be82ed1e19d58368dba3c72116bf30cede75e15d
 =======
-    <Link to="/main">
+    <Link to="/login">
       <ButtonNext>
         <AiOutlineArrowRight />
       </ButtonNext>
