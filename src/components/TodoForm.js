@@ -28,7 +28,7 @@ function Form(props) {
       {props.edit ? (
         <>
           <input
-            placeholder='Update your item'
+            placeholder='Edite sua tarefa'
             value={input}
             onChange={handleChange}
             name='text'
