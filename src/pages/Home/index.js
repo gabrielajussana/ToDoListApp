@@ -8,6 +8,7 @@ import {AiOutlineArrowRight} from 'react-icons/ai'
 function Home() {
   return (
    <Container>
+<<<<<<< HEAD
     <WhiteContainer>
       <img src={home} alt=""/>
       <h1>Gerencie as suas tarefas</h1>
@@ -15,6 +16,9 @@ function Home() {
     <ButtonNext>
       <AiOutlineArrowRight />
     </ButtonNext>
+=======
+    
+>>>>>>> be82ed1e19d58368dba3c72116bf30cede75e15d
    </Container>
   );
 }
